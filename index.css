@@ -132,19 +132,16 @@ table {
 
 *{box-sizing: border-box;
   background-color: rgb(93, 184, 189);
-  
 }
 
 .header-image{
   display: flex;
   flex-wrap: wrap;
-
 }
 
 h1 {
   font-size: 4.2rem;
   margin: 5%;
-  border-color: darkgreen solid;
 
 }
 
@@ -152,19 +149,16 @@ h1 {
   display: flex;
   align-items: flex-start;
   width:100%
-
 }
 
 h3 {
   text-align: center;
   padding-bottom: 1%;
   font-size: 0.9rem;
-
 }
 
 h2 {
   font-size: 1.2rem;
-
 }
 
 nav {
@@ -173,20 +167,18 @@ nav {
   align-items: flex-end;
   align-items: start;
   width: 35%;
-  
 }
+
 nav a {
   border: 1px rgb(25, 188, 209) solid;
   padding: 1%;
   text-decoration: none;
   font-style: normal;
-  
 }
 
 #project {
   display:flex;
   align-items:center;
- 
 }
 
 .projects {
@@ -194,9 +186,7 @@ nav a {
   justify-content: space-around;
   flex-wrap:wrap;
   align-items:center;
-  width: 50%;
-  margin-left:25%;
-
+  width: 100%;
 }
 
 .about {
@@ -205,13 +195,11 @@ nav a {
   width: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
-
 }
 
 .contact {
   padding: 10%;
   text-align: center;
   text-decoration: none;
-
 }
 
