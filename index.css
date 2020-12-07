@@ -132,11 +132,16 @@ table {
 
 *{box-sizing: border-box;
   background-color: rgb(93, 184, 189);
+  
+
 }
 
 .header-image{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  flex:1;
 }
 
 h1 {
@@ -166,14 +171,16 @@ nav {
   justify-content: space-evenly;
   align-items: flex-end;
   align-items: start;
-  width: 35%;
+  width: 100%;
+  ;
 }
 
 nav a {
-  border: 1px rgb(25, 188, 209) solid;
+  border: 2px rgb(0, 0, 0) solid;
   padding: 1%;
   text-decoration: none;
   font-style: normal;
+  border-radius: 20%;
 }
 
 #project {
@@ -183,7 +190,7 @@ nav a {
 
 .projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap:wrap;
   align-items:center;
   width: 100%;
@@ -201,5 +208,59 @@ nav a {
   padding: 10%;
   text-align: center;
   text-decoration: none;
+}
+
+/*     */
+@media (max-width: 800px) {
+  body {
+    margin: 10% 5%;
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-image{
+  border: solid;
+  
+}
+
+.about{
+  flex-direction: column;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+@media (max-width: 800px) {
+  
+  nav {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
